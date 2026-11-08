@@ -60,7 +60,7 @@ Por razones de derechos de autor, los artículos científicos no se publican dir
 
 - Piere Fabricio Carrillo Quenta (202407966)
 - Dorian Avendaño Casapia
-- Dana Franco Ramos
+- Dana Milagros Franco Ramos     (2024016556)
 - Fabiana Del Pino
 - Mattias Lupaca
 - Leonel Rivera

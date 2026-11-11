@@ -1,0 +1,6 @@
+﻿Participante;Herramienta;Tiempo (min:s);¿Acertó? (sí/no);Candidatos que indicó;Estado que indicó;Observaciones
+P1;Excel;06:04,89;sí;Flujo TCP 4;pendiente;"Consultó internet; manifestó dudas y confusión; respondió correctamente todo"
+P2;Excel;07:01,34;no;Flujo TCP 4;fuera;"Consultó internet; manifestó dudas y confusión; el estado «fuera» no es un estado del vínculo (correcto: pendiente)"
+P3;Excel;05:47,09;no;Flujo TCP 4;fuera;"Consultó internet; manifestó dudas y confusión; el estado «fuera» no es un estado del vínculo (correcto: pendiente)"
+P4;No registrada;06:28,11;sí;Respuesta correcta;Respuesta correcta;Respondió correctamente candidato y estado
+P5;;;;;;

@@ -1,0 +1,10 @@
+﻿Origen;Evento / registro;Hora UTC del evento;Flujo;Δ (s) flujo − evento;"Ventana [−15; +5]";Estado del vínculo;Motivo
+captura real;4779/1198;2026-11-10T17:39:07.1725505Z;TCP 0 / 49680;-267,535;fuera;pendiente;un candidato, pero el evento corrobora una transición, falta 4624 tipo 10 y el puerto de origen
+captura real;4779/1198;2026-11-10T17:39:07.1725505Z;TCP 1 / 49681;-151,750;fuera;pendiente;un candidato, pero el evento corrobora una transición, falta 4624 tipo 10 y el puerto de origen
+captura real;4779/1198;2026-11-10T17:39:07.1725505Z;TCP 2 / 49682;-109,373;fuera;pendiente;un candidato, pero el evento corrobora una transición, falta 4624 tipo 10 y el puerto de origen
+captura real;4779/1198;2026-11-10T17:39:07.1725505Z;TCP 3 / 49683;-15,657;fuera;pendiente;un candidato, pero el evento corrobora una transición, falta 4624 tipo 10 y el puerto de origen
+captura real;4779/1198;2026-11-10T17:39:07.1725505Z;TCP 4 / 49684;-8,603;dentro;pendiente;un candidato, pero el evento corrobora una transición, falta 4624 tipo 10 y el puerto de origen
+captura real;4624/1204;2026-11-10T17:39:48.7802548Z;-;-;-;sin asociación;4624 de tipo 5: no es un inicio de sesión RDP interactivo
+sintético;S-1 confirmado;-;-;-;-;confirmado;esperado confirmado: CUMPLE
+sintético;S-2 pendiente (dos candidatos);-;-;-;-;pendiente;esperado pendiente: CUMPLE
+sintético;S-3 sin asociación (flujo fuera de la ventana);-;-;-;-;sin asociación;esperado sin asociación: CUMPLE

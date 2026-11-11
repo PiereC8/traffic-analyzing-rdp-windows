@@ -1,0 +1,25 @@
+﻿PRUEBA DE EMPAREJAMIENTO MANUAL (línea base del problema)
+Proyecto: Traffic Analyzing Remote Desktop Connection Logs in Windows
+
+Tienes tres archivos:
+  - eventos_windows.txt : eventos exportados del servidor, con su hora UTC.
+  - 03_syn_tcp.csv      : inicios de conexión TCP al puerto 3389 que se capturaron
+                          (hora en segundos desde el 1 de enero de 1970 UTC, IP de origen,
+                          IP de destino, puerto de origen, puerto de destino, número de flujo).
+  - 01_rdp.pcapng       : la captura completa (opcional, se abre con Wireshark).
+
+Tarea:
+Toma el evento 4779 (desconexión de Escritorio remoto). Un flujo TCP es CANDIDATO a
+corresponderle si:
+  1) viene de la misma IP de cliente que figura en el evento, y
+  2) empezó entre 15 segundos antes y 5 segundos después de la hora del evento.
+
+Responde:
+  a) ¿Cuáles flujos son candidatos?
+  b) ¿Qué estado tiene el vínculo entre el evento y el flujo?
+       - CONFIRMADO: un solo candidato y el evento es un 4624 de tipo 10 (con el puerto de
+         origen coincidente si el evento lo trae).
+       - PENDIENTE: hay candidatos pero falta evidencia para confirmar el vínculo.
+       - SIN ASOCIACIÓN: no hay ningún candidato.
+
+Avisa en voz alta cuando termines. Se anotará el tiempo.

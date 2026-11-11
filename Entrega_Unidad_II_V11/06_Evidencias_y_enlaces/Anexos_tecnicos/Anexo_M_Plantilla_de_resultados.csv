@@ -1,0 +1,6 @@
+﻿Caso;Comprobación;Versión;Evidencia;Esperado;Observado;Estado
+CP-01;Eventos y flujos;;;Identificadores y extremos compatibles con bitácora;;Programado para la Unidad III
+CP-01;Sincronización;;;Desfase de hasta 2 s;;Programado para la Unidad III
+CP-01;Integridad;;;Hashes coincidentes;;Programado para la Unidad III
+CP-02;Ciclo de sesión;;;Transiciones esperadas respaldadas por registros;;Programado para la Unidad III
+CP-03;Proceso y ambigüedad;;;Vínculo fiable o pendiente con evidencia;;Programado para la Unidad III

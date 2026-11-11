@@ -1,0 +1,16 @@
+﻿Requisito;Objetivo;Prueba;Evidencia de aceptación
+RF-01;OE-01;CP-01 y CP-02;Exportación de eventos y bitácora.
+RF-02;OE-01;CP-01;Flujo y captura de diagnóstico.
+RF-03;OE-02;CP-02 y CP-03;Cronología y asociación ambigua.
+RF-04;OE-03;CP-04;Puntajes, etiquetas y matriz de confusión.
+RF-05;OE-03;CP-08 y CP-09;Capturas de tarea y tiempos.
+RF-06;OE-02;CP-03;Evento 4688 y clave de sesión.
+RF-07;OE-03 y OE-04;CP-06;CSV, roles y auditoría.
+RNF-01a;OE-04;CP-09;119 de 120 sondeos HTTPS válidos.
+RNF-01b;OE-01;CP-05;30 000 eventos únicos dentro de 30 min desde el inicio del corte.
+RNF-01c;OE-04;CP-07;RPO ≤ 24 h y RTO ≤ 2 h, con restauración verificada.
+RNF-02;OE-04;CP-06;Solicitudes denegadas y eventos de auditoría.
+RNF-03;OE-04;CP-09;Latencia p95 y tiempos de consulta.
+RNF-04;OE-04;CP-09;50 eventos/s durante 10 min, sin pérdida.
+RNF-05;OE-04;CP-07;Bitácora de reversión y recuperación.
+RNF-06;OE-04;CP-08;Resultados de cinco participantes.

@@ -1,0 +1,10 @@
+﻿Término;Definición operativa
+RDP;Protocolo que transporta la presentación e interacción de un escritorio remoto.
+NLA;Autenticación previa al establecimiento de una sesión interactiva de Escritorio remoto.
+Flujo;Metadatos agrupados por extremos, puertos, transporte y época de conexión.
+LogonId;Identificador de inicio de sesión local en Windows.
+SessionId;Identificador local de sesión de Terminal Services.
+mTLS;TLS con verificación del certificado de servidor y cliente.
+RPO / RTO;Pérdida máxima de datos tolerada / tiempo máximo objetivo de recuperación.
+p95;Percentil 95 de una distribución observada.
+RACI;Matriz que distingue ejecución, aprobación, consulta e información.

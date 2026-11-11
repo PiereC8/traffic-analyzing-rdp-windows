@@ -1,0 +1,15 @@
+﻿Evento;Proveedor o canal;Campos a conservar;Aplicación y condición
+4624;Security;TargetLogonId, LogonType, IpAddress, IpPort, SID o alias;Tipo 10 confirma inicio remoto interactivo.
+4625;Security;TargetUserName, LogonType, IpAddress, Status, SubStatus;Fallo. Tipo 3 requiere contexto de RDP.
+4634;Security;TargetLogonId, LogonType;Cierre completado.
+4647;Security;SubjectLogonId;Cierre solicitado por el usuario.
+4672;Security;SubjectLogonId, PrivilegeList reducida;Privilegios especiales asociados al inicio.
+4688;Security;NewProcessName, NewProcessId, SubjectLogonId, TargetLogonId si existe;Creación de ejecutable permitido. Excluir CommandLine.
+1102;Security;SubjectUserSid, SubjectLogonId;Señal operativa de borrado del registro.
+1149;RemoteConnectionManager/Operational;Cuenta, dominio y dirección si disponibles;Autenticación de red RDP. Requiere contexto para confirmar sesión.
+21 / 22;LocalSessionManager/Operational;SessionID, User, Address cuando exista;Inicio de sesión y shell.
+23 / 24 / 25;LocalSessionManager/Operational;SessionID, User, Address cuando exista;Cierre, desconexión y reconexión.
+6005 / 6006;System / EventLog;EventRecordID, TimeCreated;Inicio o detención del servicio de eventos.
+6008;System / EventLog;TimeCreated y datos del proveedor;Evidencia de apagado inesperado.
+4778;Security;AccountName, AccountDomain, LogonID, SessionName, ClientName, ClientAddress;Reconexión. Corrobora LSM 25. No incrementa el puntaje por sí sola.
+4779;Security;AccountName, AccountDomain, LogonID, SessionName, ClientName, ClientAddress;Desconexión. Corrobora LSM 24. Conservar ambas procedencias para una sola transición.

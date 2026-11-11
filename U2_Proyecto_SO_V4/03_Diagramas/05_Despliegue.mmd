@@ -1,0 +1,12 @@
+flowchart LR
+  FW["Switch interno · Sin salida WAN"]
+  N0["CLI-RDP · VLAN 10<br/>Windows 11 Pro · 2 vCPU · 4 GB · 70 GB<br/>10.20.10.10/24"]
+  N0 --- FW
+  N1["WIN-RDP · VLAN 20<br/>Windows Server 2022 · 2 vCPU · 4 GB · 65 GB<br/>10.20.20.10/24"]
+  N1 --- FW
+  N2["ANL-RDP · VLAN 30<br/>Ubuntu Server 24.04 · 2 vCPU · 4 GB · 80 GB<br/>10.20.30.10/24"]
+  N2 --- FW
+  N3["FW-RDP · troncal<br/>Ubuntu Server 24.04 · 1 vCPU · 1 GB · 12 GB<br/>Dirección .1 por VLAN"]
+  N3 --- FW
+  OBS["Memoria: 13 GB VM + 6 GB anfitrión + 13 GB holgura. Disco: 227 GB VM + 23 GB reserva."]
+  FW -.-> OBS

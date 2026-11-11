@@ -1,0 +1,8 @@
+flowchart LR
+  client["CLI-RDP · VLAN 10"] -->|"F-01 · TCP/UDP 3389"| rdpFw["FW-RDP"]
+  rdpFw -->|"F-01 · TCP/UDP 3389"| windows["WIN-RDP · VLAN 20 · Get-WinEvent y TShark"]
+  windows -->|"F-02 · TCP 443 con mTLS"| ingestFw["FW-RDP"]
+  ingestFw -->|"F-02 · TCP 443 con mTLS"| analyzer["ANL-RDP · VLAN 30 · API, trabajador y PostgreSQL local"]
+  management["Puesto de gestión · VLAN 40"] -->|"F-03 · HTTPS por TCP 443"| dashboardFw["FW-RDP"]
+  dashboardFw -->|"F-03 · HTTPS por TCP 443"| analyzer
+  analyzer -.->|"Respuesta HTTPS · retorno F-05"| management

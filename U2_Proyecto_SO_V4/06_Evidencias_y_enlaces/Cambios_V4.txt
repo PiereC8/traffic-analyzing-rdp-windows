@@ -1,0 +1,32 @@
+REVISIÓN EDITORIAL FINAL DE V4
+
+Se corrigieron problema, objetivos, referencias, protocolo, seguridad, infraestructura, costos, diagramas y calidad editorial. El informe conserva 87 referencias, 120 ocurrencias de cita, 42 páginas con anexos y 15 diapositivas. El plan distingue la revisión visual del prototipo de las mediciones que podrían obtenerse con el Anexo M. El presupuesto parcial referencial incorpora el módulo de RAM.
+
+HISTORIAL
+
+REFUERZO FINAL DE LA ENTREGA V4
+
+Se añadió el recorrido Figma de tres casos y los anexos J, K y L de trazabilidad, riesgos y costos. El informe y la presentación incorporan el presupuesto de memoria y almacenamiento y el escenario a 12 meses. La bibliografía conserva 90 fuentes contrastadas con fuentes primarias y el cotejo incluye 122 ocurrencias. El informe final tiene 40 páginas y la presentación 15 diapositivas.
+
+CIERRE DE LA ENTREGA V4
+
+La Unidad II entrega el diseño y el prototipo de interfaz con datos simulados. Los escenarios de prueba y el cronograma se documentan para una posible fase futura.
+
+Los archivos con sufijo _Entrega son las versiones finales del informe. Su PDF tiene 40 páginas e índice actualizado. La presentación V4 se incluye en PowerPoint y PDF con 15 diapositivas. En la diapositiva 13, S/ 4 257 corresponde al valor de referencia y el costo a 12 meses queda por cotizar.
+
+Se incorporaron los siete diagramas a tamaño completo, los cinco anexos técnicos editables y el cotejo de citas con la paginación final. El prototipo incluye capturas y enlaces de Figma. El enlace de Drive identifica la entrega anterior.
+
+HISTORIAL DE LA REVISIÓN INICIAL
+
+CAMBIOS DE LA VERSIÓN 4.0 (sobre la V3)
+
+M2  Se retiró la referencia Bergeron (2023, GoSecure): la lista no tenía URL ni DOI y no pude verificar la URL. La cita de la sección 10.1 se ajustó (R-07 queda sustentada por MITRE, 2026b). Referencias: 91 -> 90. Se actualizaron la lista, la concordancia y la verificación DOI. Para recuperarla, añade su URL real (la de la página de GoSecure que guardaste en PDF) en la lista y la cita.
+M3  Se reescribieron tres párrafos para que cada cita sustente una decisión concreta: 7.3 (Terminal Server e inventario por nodo), 9.4 (artefactos de notificaciones y Tor) y 10.1.
+M4  Sección 1.3 y Anexo G: conteos coherentes (80 documentos citados + 10 fuentes oficiales = 90). Sección 7.1: se usan dos medios externos de 1 TB, igual que la Tabla 25.
+M5  Tabla 25 y sección 15.2: el equipo en especie se presenta como valor de reposición (no es gasto) y se retiró el rótulo "TCO" de la cifra de S/ 4 257,00 (ahora "valor de referencia"). El gasto incremental parcial sigue en S/ 558,00. Se añadió la justificación del equipo comparable respecto de la Tabla 13. El TCO a 12 meses queda por completar al cotizar licencias, energía, soporte y envío.
+m1  Citas de 9.1 unidas en un solo paréntesis.
+m2  Tablas 13, 16 y 17: encabezados e IDs ya no se parten.
+m4  Tabla 14: se indica que Windows Server 2022 ya terminó su soporte principal (octubre de 2026) y sigue en soporte extendido hasta el 15/10/2031 (hora del Pacífico, según la página de ciclo de vida de Microsoft).
+Exportación inicial: PDF de 38 páginas.
+La revisión inicial registró límites de comprobación de precios y DOI.
+

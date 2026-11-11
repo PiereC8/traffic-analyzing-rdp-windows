@@ -1,0 +1,75 @@
+﻿TEMA 6 — DETECCIÓN Y ANÁLISIS FORENSE (DANA)
+
+REFERENCIAS BIBLIOGRÁFICAS (APA 7.ª EDICIÓN)
+
+Aigbogun, O. O., Varol, C., & Shashidhar, N. (2026). A layered high-value evidence area (HVEA) model for selective Windows digital forensics imaging: NIJ-aligned design and empirical validation. Electronics, 15(14), Artículo 3024. https://doi.org/10.3390/electronics15143024
+
+Chapple, M. J., Chawla, N., & Striegel, A. (2007). Authentication anomaly detection: A case study on a virtual private network. En Proceedings of the 2007 ACM Workshop on Mining Network Data (pp. 17–22). Association for Computing Machinery. https://doi.org/10.1145/1269880.1269884
+
+Domingues, P., Andrade, L., & Frade, M. (2022). A digital forensic view of Windows 10 notifications. Forensic Sciences, 2(1), 88–106. https://doi.org/10.3390/forensicsci2010007
+
+Dora, J. R., & Hluchý, L. (2026). Adversarial exploitation of Remote Desktop Protocol (RDP) for lateral movement. En Proceedings of the 17th International Conference on Information and Communication Systems (pp. 1–6). Association for Computing Machinery. https://doi.org/10.1145/3812734.3813403
+
+Guttman, B., White, D. R., & Walraven, T. (2022). Digital evidence preservation: Considerations for evidence handlers (NIST IR 8387). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.IR.8387
+
+Ispahany, J., Islam, M. R., Khan, M. A., & Islam, M. Z. (2025). iCNN-LSTM: A batch-based incremental ransomware detection system using Sysmon [Prepublicación]. arXiv. https://doi.org/10.48550/arXiv.2501.01085
+
+Javed, M. S., Sajjad, S. M., Mehmood, D., Mansoor, K., Iqbal, Z., Kazim, M., & Muhammad, Z. (2024). Analyzing Tor Browser artifacts for enhanced web forensics, anonymity, cybersecurity, and privacy in Windows-based systems. Information, 15(8), Artículo 495. https://doi.org/10.3390/info15080495
+
+Lyle, J. R., Guttman, B., Butler, J. M., Sauerwein, K., Reed, C., & Lloyd, C. E. (2022). Digital investigation techniques: A NIST scientific foundation review (NIST IR 8354). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.IR.8354
+
+Manson, J. (2022). Remote desktop software as a forensic resource. Journal of Cyber Security Technology, 6(1–2), 1–26. https://doi.org/10.1080/23742917.2022.2049560
+
+Meijerink, M. (2019). Anomaly-based detection of lateral movement in a Microsoft Windows environment: Using the Windows security event log for detecting lateral movement techniques executed by a professional red team [Tesis de maestría, University of Twente]. University of Twente Student Theses. https://essay.utwente.nl/77122/1/Meijerink_MA_EWI.pdf
+
+Radah, T., Chaoui, H., & Saadi, C. (2023). Detecting unconventional and malicious Windows authentication activities through statistical rarity assessment. International Journal of Safety and Security Engineering, 13(5), 773–780. https://doi.org/10.18280/ijsse.130501
+
+Sanjalawe, Y., Al-E’mari, S., & Makhadmeh, S. N. (2026). Forensic-BERT: Explainable transformer-based detection of concealed evidence in cross-platform volatile memory. Computers, 15(7), Artículo 420. https://doi.org/10.3390/computers15070420
+
+Siadati, H., & Memon, N. (2017). Detecting structurally anomalous logins within enterprise networks. En Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (pp. 1273–1284). Association for Computing Machinery. https://doi.org/10.1145/3133956.3134003
+
+Yu, L., Ye, Y., Zhang, Z., & Zhang, X. (2024). Cost-effective attack forensics by recording and correlating file system changes. En Proceedings of the 33rd USENIX Security Symposium (pp. 1705–1722). USENIX Association. https://www.usenix.org/conference/usenixsecurity24/presentation/yu-le
+
+CITAS PARENTÉTICAS POR ARCHIVO PDF
+
+01_Adversarial Exploitation of Remote Desktop Protocol (RDP) for Lateral Movement.pdf
+(Dora & Hluchý, 2026)
+
+02_Aigbogun et al 2026 - Adquisicion forense selectiva en Windows.pdf
+(Aigbogun et al., 2026)
+
+03_Anomaly-based Detection of Lateral Movement in a Microsoft Windows Environment.pdf
+(Meijerink, 2019)
+
+04_Authentication Anomaly Detection_ A Case Study On A Virtual Private Network.pdf
+(Chapple et al., 2007)
+
+05_Detecting Structurally Anomalous Logins Within Enterprise Networks.pdf
+(Siadati & Memon, 2017)
+
+06_Detecting Unconventional and Malicious Windows Authentication Activities Through Statistical Rarity Assessment.pdf
+(Radah et al., 2023)
+
+07_Domingues et al 2022 - Forense de notificaciones de Windows.pdf
+(Domingues et al., 2022)
+
+08_Guttman et al 2022 - Preservacion de evidencia digital.pdf
+(Guttman et al., 2022)
+
+09_iCNN-LSTM_ A batch-based incremental ransomware detection system using Sysmon.pdf
+(Ispahany et al., 2025)
+
+10_Javed et al 2024 - Artefactos del navegador Tor en Windows.pdf
+(Javed et al., 2024)
+
+11_Lyle et al 2022 - Evaluacion de tecnicas forenses.pdf
+(Lyle et al., 2022)
+
+12_Remote Desktop Software as a forensic resource.pdf
+(Manson, 2022)
+
+13_Sanjalawe et al 2026 - Forensic-BERT.pdf
+(Sanjalawe et al., 2026)
+
+14_Yu et al 2024 - Correlacion forense de cambios en archivos.pdf
+(Yu et al., 2024)

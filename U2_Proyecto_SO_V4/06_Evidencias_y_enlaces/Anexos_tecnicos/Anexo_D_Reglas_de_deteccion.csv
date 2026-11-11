@@ -1,0 +1,9 @@
+﻿Regla;Ventana y clave;Excepción o condición;Evidencia mínima
+R-01;5 min, IP, cuenta y host;Deduplicar por clave de evento.;5 fallos asociados.
+R-02;5 min antes del éxito, mismo trío;Aplicar tope conjunto R-01/R-02.;Éxito tipo 10 y cinco fallos.
+R-03;14 días previos, cuenta y origen;Deshabilitar sin historial suficiente.;Acceso nuevo e historial consultado.
+R-04;Horario por cuenta, America/Lima;Calendario versionado y excepciones autorizadas.;Éxito y horario aplicable.
+R-05;Mismo host, arranque y LogonId;Privilegio es contexto, requiere revisión.;Evento 4672 asociado al inicio.
+R-06;15 min, cuenta y tres IP únicas;Excluir orígenes sin resolución válida.;Tres accesos confirmados.
+R-07;10 min, IP y host;≥ 8 fallos y ≥ 5 cuentas distintas.;Fallos y cardinalidad calculada.
+Corroboración de sesión;Host, arranque, Logon ID y tiempo;Asociar 4778 con LSM 25 y 4779 con LSM 24. Conservar eventos originales sin duplicar transición.;Transición corroborada sin puntos de riesgo propios.

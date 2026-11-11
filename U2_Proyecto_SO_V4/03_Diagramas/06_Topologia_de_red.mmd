@@ -1,0 +1,12 @@
+flowchart LR
+  FW["FW-RDP · denegación por defecto"]
+  N0["VLAN 10 · Cliente<br/>10.20.10.0/24 · CLI .10 · puerta .1<br/>RDP solo F-01"]
+  N0 --- FW
+  N1["VLAN 20 · Windows<br/>10.20.20.0/24 · WIN .10 · puerta .1<br/>Ingesta solo F-02"]
+  N1 --- FW
+  N2["VLAN 30 · Análisis<br/>10.20.30.0/24 · ANL .10 · puerta .1<br/>NTP interno F-04"]
+  N2 --- FW
+  N3["VLAN 40 · Gestión<br/>10.20.40.0/24 · ADM .10 · puerta .1<br/>Tablero y SSH F-03"]
+  N3 --- FW
+  OBS["F-05 retorno · F-06 denegación. VPN externa fuera de alcance. El tablero interno exige MFA."]
+  FW -.-> OBS

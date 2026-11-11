@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informe, presentación y arquitectura del proyecto Monitor RDP en Windows de la Universidad Privada de Tacna.">
+  <meta name="theme-color" content="#101d2d">
+  <title>Monitor RDP en Windows | Entrega de la Unidad II</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a class="skip" href="#descargas">Saltar a los documentos</a>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="brand" href="#inicio"><span aria-hidden="true">⌁</span> Monitor RDP</a>
+      <nav aria-label="Navegación principal">
+        <a href="#descargas">Documentos</a>
+        <a href="#arquitectura">Arquitectura</a>
+        <a href="#recursos">Recursos</a>
+      </nav>
+    </div>
+  </header>
+  <main id="inicio">
+    <section class="hero" aria-labelledby="titulo">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Sistemas Operativos I · Unidad II</p>
+          <h1 id="titulo">Monitor RDP<br>en Windows<span class="accent">.</span></h1>
+          <p class="lead">Diseño de un sistema que combina los registros de Windows y el tráfico de red para reconstruir sesiones de Escritorio Remoto.</p>
+          <p class="course">Universidad Privada de Tacna · Ingeniería de Sistemas</p>
+          <nav class="project-links" id="recursos" aria-label="Recursos externos del proyecto">
+            <a class="button resource" href="https://drive.google.com/drive/folders/1b8J9DNKoA5KdiiEDLaOaN6jW5RNJN3eC" target="_blank" rel="noopener">Google Drive <span aria-hidden="true">↗</span></a>
+            <a class="button resource" href="https://github.com/PiereC8/traffic-analyzing-rdp-windows" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+            <a class="button resource" href="https://www.figma.com/proto/h8yUohZU6NVHWTLkb2AYWn?node-id=2-397" target="_blank" rel="noopener">Prototipo en Figma <span aria-hidden="true">↗</span></a>
+          </nav>
+        </div>
+
+        <section class="library" id="descargas" aria-labelledby="titulo-descargas">
+          <div class="library-heading">
+            <h2 id="titulo-descargas">Documentos de la entrega</h2>
+            <span class="version">V8</span>
+          </div>
+          <article class="document">
+            <h3>Informe final</h3>
+            <p>Requerimientos, diseño, plan de pruebas y bibliografía.</p>
+            <div class="actions">
+              <a class="button primary" href="descargas/Diseno_RDP_Windows_Unidad_II_V8.pdf" target="_blank" rel="noopener" aria-label="Ver informe en PDF (abre en otra pestaña)">Ver PDF <span aria-hidden="true">↗</span></a>
+              <a class="button secondary" href="descargas/Diseno_RDP_Windows_Unidad_II_V8.pdf" download aria-label="Descargar informe en PDF">Descargar PDF</a>
+              <a class="button secondary" href="descargas/Diseno_RDP_Windows_Unidad_II_V8.docx" download>Descargar Word</a>
+            </div>
+          </article>
+          <article class="document">
+            <h3>Presentación</h3>
+            <p>Diapositivas para la sustentación del proyecto.</p>
+            <div class="actions">
+              <a class="button primary" href="descargas/Sustentacion_RDP_Unidad_II_V8.pdf" target="_blank" rel="noopener" aria-label="Ver presentación en PDF (abre en otra pestaña)">Ver PDF <span aria-hidden="true">↗</span></a>
+              <a class="button secondary" href="descargas/Sustentacion_RDP_Unidad_II_V8.pdf" download aria-label="Descargar presentación en PDF">Descargar PDF</a>
+              <a class="button secondary" href="descargas/Sustentacion_RDP_Unidad_II_V8.pptx" download>Descargar PowerPoint</a>
+            </div>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <section class="wrap block" id="arquitectura" aria-labelledby="titulo-arq">
+      <div class="split">
+        <h2 id="titulo-arq">Arquitectura del proyecto</h2>
+        <p>Consulta los diagramas del informe, desde la captura de evidencia hasta el despliegue y los controles de seguridad.</p>
+      </div>
+      <div class="diagram-gallery">
+        <article class="diagram-card">
+          <a class="diagram-preview" href="imagenes/arquitectura.png" target="_blank" rel="noopener"><img src="imagenes/arquitectura.png" alt="Ampliar arquitectura lógica y flujo de la evidencia" loading="lazy"></a>
+          <div class="diagram-body"><h3>Arquitectura lógica</h3><p>Conexión RDP, envío de evidencia y consulta del tablero.</p><a href="imagenes/arquitectura.png" download aria-label="Descargar arquitectura lógica en PNG">Descargar PNG <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="diagram-card">
+          <a class="diagram-preview" href="imagenes/flujo-de-datos.png" target="_blank" rel="noopener"><img src="imagenes/flujo-de-datos.png" alt="Ampliar diagrama de flujo de datos" loading="lazy"></a>
+          <div class="diagram-body"><h3>Flujo de datos</h3><p>Captura, validación, procesamiento y consulta de registros.</p><a href="imagenes/flujo-de-datos.png" download aria-label="Descargar flujo de datos en PNG">Descargar PNG <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="diagram-card">
+          <a class="diagram-preview" href="imagenes/secuencia-rdp.png" target="_blank" rel="noopener"><img src="imagenes/secuencia-rdp.png" alt="Ampliar diagrama de secuencia RDP" loading="lazy"></a>
+          <div class="diagram-body"><h3>Secuencia RDP</h3><p>Interacciones desde el inicio de sesión hasta el análisis.</p><a href="imagenes/secuencia-rdp.png" download aria-label="Descargar secuencia RDP en PNG">Descargar PNG <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="diagram-card">
+          <a class="diagram-preview" href="imagenes/modelo-entidad-relacion.png" target="_blank" rel="noopener"><img src="imagenes/modelo-entidad-relacion.png" alt="Ampliar modelo entidad-relación" loading="lazy"></a>
+          <div class="diagram-body"><h3>Modelo entidad-relación</h3><p>Relaciones entre eventos, flujos, sesiones y alertas.</p><a href="imagenes/modelo-entidad-relacion.png" download aria-label="Descargar modelo entidad-relación en PNG">Descargar PNG <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="diagram-card">
+          <a class="diagram-preview" href="imagenes/despliegue.png" target="_blank" rel="noopener"><img src="imagenes/despliegue.png" alt="Ampliar diagrama de despliegue" loading="lazy"></a>
+          <div class="diagram-body"><h3>Despliegue</h3><p>Máquinas virtuales, anfitrión y almacenamiento del laboratorio.</p><a href="imagenes/despliegue.png" download aria-label="Descargar despliegue en PNG">Descargar PNG <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="diagram-card">
+          <a class="diagram-preview" href="imagenes/red.png" target="_blank" rel="noopener"><img src="imagenes/red.png" alt="Ampliar topología de red" loading="lazy"></a>
+          <div class="diagram-body"><h3>Topología de red</h3><p>VLAN, direccionamiento y tránsito a través del firewall.</p><a href="imagenes/red.png" download aria-label="Descargar topología de red en PNG">Descargar PNG <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="diagram-card">
+          <a class="diagram-preview" href="imagenes/seguridad.png" target="_blank" rel="noopener"><img src="imagenes/seguridad.png" alt="Ampliar diagrama de seguridad" loading="lazy"></a>
+          <div class="diagram-body"><h3>Seguridad</h3><p>Controles aplicados en las zonas del laboratorio.</p><a href="imagenes/seguridad.png" download aria-label="Descargar diagrama de seguridad en PNG">Descargar PNG <span aria-hidden="true">↓</span></a></div>
+        </article>
+      </div>
+      <details class="flow-details">
+        <summary>Leer las rutas y reglas del firewall</summary>
+      <figure class="diagram" aria-labelledby="titulo-flujo">
+        <h3 id="titulo-flujo">Arquitectura lógica y flujo de la evidencia</h3>
+        <ol class="flow">
+          <li>
+            <h4>Conexión de Escritorio Remoto</h4>
+            <p class="route"><strong>CLI-RDP</strong> <span aria-hidden="true">→</span> <span class="sr-only">a través de</span> <strong>FW-RDP</strong> <span aria-hidden="true">→</span> <span class="sr-only">hacia</span> <strong>WIN-RDP</strong></p>
+            <p><span class="rule">F-01 · TCP y UDP 3389</span> El cliente inicia RDP. En el servidor Windows, Get-WinEvent recoge registros y TShark recoge metadatos del tráfico.</p>
+          </li>
+          <li>
+            <h4>Envío y análisis de la evidencia</h4>
+            <p class="route"><strong>WIN-RDP</strong> <span aria-hidden="true">→</span> <span class="sr-only">a través de</span> <strong>FW-RDP</strong> <span aria-hidden="true">→</span> <span class="sr-only">hacia</span> <strong>ANL-RDP</strong></p>
+            <p><span class="rule">F-02 · TCP 443 con mTLS</span> El colector envía ambos tipos de evidencia. El analizador los correlaciona, evalúa las reglas y guarda los resultados en PostgreSQL local.</p>
+          </li>
+          <li>
+            <h4>Consulta del tablero</h4>
+            <p class="route"><strong>Puesto de gestión</strong> <span aria-hidden="true">→</span> <span class="sr-only">a través de</span> <strong>FW-RDP</strong> <span aria-hidden="true">→</span> <span class="sr-only">hacia</span> <strong>API de ANL-RDP</strong></p>
+            <p><span class="rule">F-03 · HTTPS, TCP 443</span> El navegador inicia la consulta. La API responde con la cronología y las alertas autorizadas para ese usuario.</p>
+          </li>
+        </ol>
+        <figcaption>
+          <span>FW-RDP aplica las reglas entre zonas. F-05 permite el tráfico de retorno de conexiones establecidas o relacionadas.</span>
+        </figcaption>
+      </figure>
+      </details>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap footer-grid">
+      <div><p class="footer-title">Equipo</p><p>Piere Carrillo · Dorian Avendaño · Mattias Lupaca<br>Dana Franco · Fabiana Del Pino · Leonel Rivera</p></div>
+      <a href="#recursos">Recursos del proyecto <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>

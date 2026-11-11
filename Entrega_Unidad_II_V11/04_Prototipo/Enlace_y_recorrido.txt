@@ -11,4 +11,4 @@ https://www.figma.com/proto/h8yUohZU6NVHWTLkb2AYWn?node-id=2-397
 
 Desde Resumen, abre Casos de diseño. Selecciona CD-01 (AL-018), CD-02 (acceso normal) o CD-03 (correlación ambigua).
 Las capturas y el documento Recorrido_casos_de_diseno.md conservan la evidencia visual.
-El acceso del docente depende de los permisos del archivo de Figma.
+

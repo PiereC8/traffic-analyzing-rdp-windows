@@ -7,7 +7,7 @@ La propuesta busca correlacionar información del tráfico RDP con eventos de Wi
 
 ## Estado del proyecto
 
-El proyecto se encuentra en la etapa de diseño conceptual. El repositorio presenta la arquitectura propuesta, el flujo de funcionamiento, el diseño de las interfaces y la documentación académica.
+El proyecto se encuentra en la etapa de diseño (Unidad II); la implementación se realiza en la Unidad III. El repositorio presenta la arquitectura propuesta, el flujo de funcionamiento, el diseño de las interfaces y la documentación académica.
 
 No contiene actualmente una implementación funcional ni un sistema desplegado.
 
@@ -38,23 +38,31 @@ Diseñar una solución para recopilar, correlacionar y analizar el tráfico y lo
 
 ## Estructura del repositorio
 
-- `docs`: informe final y presentación.
-- `diseño/arquitectura`: diagramas de arquitectura y flujo.
-- `diseño/interfaces`: diseños conceptuales de las interfaces.
-- `evidencias`: capturas y descripción del prototipo.
-- `referencias`: bibliografía y matriz de fuentes.
+- `docs`: informe de la Unidad I (PMI).
+- `Entrega_Unidad_II_V13`: entrega de la Unidad II.
+  - `01_Informe`: informe de diseño en Word y PDF (versión 13).
+  - `02_Presentacion`: presentación de sustentación en PPTX y PDF (versión 12, seis partes).
+  - `03_Diagramas`: diagramas de arquitectura, flujo, secuencia, datos, despliegue, topología y seguridad.
+  - `04_Prototipo`: capturas del prototipo de Figma y recorrido de los casos de diseño.
+  - `05_Fuentes`: referencias APA 7, concordancia citas-referencias y registro de verificación.
+  - `06_Evidencias_y_enlaces`: anexos técnicos editables (CSV, scripts de la prueba de correlación y del ensayo de recuperación) y prueba de línea base.
+  - `08_evidencia_preliminar`: captura del laboratorio, eventos exportados y manifiesto SHA-256.
+- `Sitio-Web`: sitio del proyecto con la descarga de los documentos.
 
 ## Prototipo en Figma
 
-[Insertar enlace de Figma]
+- [Recorrido de los tres casos](https://www.figma.com/proto/h8yUohZU6NVHWTLkb2AYWn?node-id=21-227)
+- [Vistas editables](https://www.figma.com/design/h8yUohZU6NVHWTLkb2AYWn?node-id=21-227)
+
+El prototipo representa escenarios simulados; el tablero funcional se implementa en la Unidad III.
 
 ## Fuentes bibliográficas
 
-Los 40 archivos PDF utilizados en la revisión de literatura se encuentran organizados por subtema en Google Drive:
+Los 83 archivos PDF utilizados en la revisión de literatura se encuentran organizados por subtema en Google Drive:
 
-[Insertar enlace de Google Drive]
+[Carpeta del proyecto en Google Drive](https://drive.google.com/drive/folders/1Vg1ablKRYeeNLUIzI-96Wys8z7t1Pn-Q?usp=drive_link)
 
-Por razones de derechos de autor, los artículos científicos no se publican directamente en este repositorio.
+Por razones de derechos de autor, los artículos científicos no se publican directamente en este repositorio. Las capturas de pantalla de pruebas que muestran rutas locales se conservan solo en Drive.
 
 ## Integrantes
 

@@ -1,0 +1,3 @@
+link github: https://github.com/PiereC8/traffic-analyzing-rdp-windows
+link drive: https://drive.google.com/drive/folders/1Vg1ablKRYeeNLUIzI-96Wys8z7t1Pn-Q?usp=sharing
+link figma: https://www.figma.com/design/h8yUohZU6NVHWTLkb2AYWn?node-id=21-227

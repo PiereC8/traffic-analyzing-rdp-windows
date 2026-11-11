@@ -58,7 +58,7 @@ Por razones de derechos de autor, los artículos científicos no se publican dir
 
 ## Integrantes
 
-- Piere Fabricio Carrillo Quenta (202407966)
+- Piere Fabricio Carrillo Quenta (2024079966)
 - Dorian Avendaño Casapia
 - Dana Milagros Franco Ramos     (2024016556)
 - Fabiana Del Pino

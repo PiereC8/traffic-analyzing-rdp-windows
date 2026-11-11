@@ -1,7 +1,0 @@
-Bloque;Caso;Inicio UTC;Evento y registro;Flujo TCP;Delta s;Tiempo manual s;Aciertos;Vinculos incorrectos;Resultado
-Adquisición;Fallo;Pendiente;Pendiente (Unidad III);Pendiente;Pendiente;;;;Pendiente (Unidad III)
-Adquisición;Acceso;Pendiente;Pendiente (Unidad III);Pendiente;Pendiente;;;;Pendiente (Unidad III)
-Adquisición;Desconexión y reconexión;Pendiente;Pendiente (Unidad III);;No aplica;;;;Pendiente (Unidad III)
-Línea base;Acceso normal;;;;;Pendiente;Pendiente;Pendiente;
-Línea base;Alerta;;;;;Pendiente;Pendiente;Pendiente;
-Línea base;Ambigüedad;;;;;Pendiente;Pendiente;Pendiente;

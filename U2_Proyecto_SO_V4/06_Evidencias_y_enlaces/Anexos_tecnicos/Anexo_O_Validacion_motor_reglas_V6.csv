@@ -1,8 +1,0 @@
-﻿Caso;Descripcion;R-01;R-02;R-03;R-04;R-05;R-06;R-07;Suma bruta;Puntaje;Severidad;Esperado;Veredicto;Estado de correlación
-AL-018 / CD-01;Éxito tras 5 fallos, IP nueva, fuera de horario, 4672;Sí;Sí;Sí;Sí;Sí;No;No;95;90;Crítica;90;CUMPLE;no aplica
-CD-02;Acceso normal en horario laboral;No;No;No;No;No;No;No;0;0;Baja;0;CUMPLE;no aplica
-CD-03;Dos flujos compatibles: el vínculo debe quedar pendiente;No;No;No;No;No;No;No;0;0;Baja;0;CUMPLE;pendiente
-B-01;Cuatro fallos: por debajo del umbral;No;No;No;No;No;No;No;0;0;Baja;0;CUMPLE;no aplica
-B-02;Cinco fallos sin éxito posterior;Sí;No;No;No;No;No;No;25;25;Media;25;CUMPLE;no aplica
-B-03;Password spraying: 8 fallos a 5 cuentas;No;No;No;No;No;No;Sí;55;55;Alta;55;CUMPLE;no aplica
-B-04;Tope de 100 con R-01+R-02 topados y R-07;Sí;Sí;Sí;Sí;No;No;Sí;135;100;Crítica;100;CUMPLE;no aplica

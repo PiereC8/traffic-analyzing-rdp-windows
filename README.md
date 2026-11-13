@@ -1,4 +1,17 @@
 # traffic-analyzing-rdp-windows
+
+<p align="center">
+  <a href="https://pierec8.github.io/traffic-analyzing-rdp-windows/">
+    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20P%C3%81GINA%20DE%20DESCARGAS-Informe%2C%20presentaci%C3%B3n%20y%20anexos-0366d6?style=for-the-badge" alt="Página de descargas">
+  </a>
+</p>
+
+<h2 align="center">📥 <a href="https://pierec8.github.io/traffic-analyzing-rdp-windows/">Ir a la página de descargas</a></h2>
+
+<p align="center"><code>https://pierec8.github.io/traffic-analyzing-rdp-windows/</code></p>
+
+---
+
 ## Descripción
 
 Este repositorio contiene el diseño conceptual de una solución orientada al análisis del tráfico de red y los registros de conexiones Remote Desktop Protocol en sistemas Windows.
@@ -47,7 +60,7 @@ Diseñar una solución para recopilar, correlacionar y analizar el tráfico y lo
   - `05_Fuentes`: referencias APA 7, concordancia citas-referencias y registro de verificación.
   - `06_Evidencias_y_enlaces`: anexos técnicos editables (CSV, scripts de la prueba de correlación y del ensayo de recuperación) y prueba de línea base.
   - `08_evidencia_preliminar`: captura del laboratorio, eventos exportados y manifiesto SHA-256.
-- `Sitio-Web`: sitio del proyecto con la descarga de los documentos.
+- `Sitio-Web`: sitio del proyecto con la descarga de los documentos ([abrir página de descargas](https://pierec8.github.io/traffic-analyzing-rdp-windows/)).
 
 ## Prototipo en Figma
 

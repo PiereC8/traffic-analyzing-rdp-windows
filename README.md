@@ -52,8 +52,8 @@ Diseñar una solución para recopilar, correlacionar y analizar el tráfico y lo
 ## Estructura del repositorio
 
 - `docs`: informe de la Unidad I (PMI).
-- `Entrega_Unidad_II_V13`: entrega de la Unidad II.
-  - `01_Informe`: informe de diseño en Word y PDF (versión 13).
+- `Entrega_Unidad_II_V11`: entrega de la Unidad II.
+  - `01_Informe`: informe de diseño en Word y PDF.
   - `02_Presentacion`: presentación de sustentación en PPTX y PDF (versión 12, seis partes).
   - `03_Diagramas`: diagramas de arquitectura, flujo, secuencia, datos, despliegue, topología y seguridad.
   - `04_Prototipo`: capturas del prototipo de Figma y recorrido de los casos de diseño.

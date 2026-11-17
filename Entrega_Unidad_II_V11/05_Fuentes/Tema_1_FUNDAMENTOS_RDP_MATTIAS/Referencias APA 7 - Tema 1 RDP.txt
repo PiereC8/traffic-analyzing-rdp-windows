@@ -1,0 +1,75 @@
+﻿TEMA 1 — FUNDAMENTOS DE RDP (MATTIAS)
+
+REFERENCIAS BIBLIOGRÁFICAS (APA 7.ª EDICIÓN)
+
+Atanassov, A., Baun, C., & Bouché, J. (2024). Grenzen verschiedener Betriebssysteme und Endgeräte überwinden durch neuartiges Desktop-as-a-Service [Superar las barreras entre sistemas operativos y dispositivos mediante un nuevo escritorio como servicio]. Informatik Spektrum, 47(5–6), 153–162. https://doi.org/10.1007/s00287-024-01583-x
+
+Aung, Y. L., Khoo, Y. L., Zheng, D. Y., Duo, B. S., Chattopadhyay, S., Zhou, J., Lu, L., & Goh, W. (2025). HoneyWin: High-interaction Windows honeypot in enterprise environment [Prepublicación]. arXiv. https://doi.org/10.48550/arXiv.2505.00465
+
+Lai, A. M., & Nieh, J. (2006). On the performance of wide-area thin-client computing. ACM Transactions on Computer Systems, 24(2), 175–209. https://doi.org/10.1145/1132026.1132029
+
+Magaña, E., Sesma, I., Morató, D., & Izal, M. (2019). Remote access protocols for Desktop-as-a-Service solutions. PLOS ONE, 14(1), Artículo e0207512. https://doi.org/10.1371/journal.pone.0207512
+
+Microsoft. (2020a, 19 de agosto). Remote Desktop Protocol. Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/termserv/remote-desktop-protocol
+
+Microsoft. (2020b, 19 de agosto). Remote Desktop sessions. Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/termserv/terminal-services-sessions
+
+Microsoft. (2024, 30 de octubre). Remote Desktop and web services (MS-AUTHSOD, sección 2.1.2.3.2). Microsoft Learn. https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-authsod/32f5a0b9-21d9-4b9c-b7d1-e80d72db47a7
+
+Microsoft. (2026, 9 de marzo). Remote Desktop Protocol: Basic connectivity and graphics remoting (MS-RDPBCGR, revisión 62.0). Microsoft Learn. https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-rdpbcgr/5073f4ed-1e93-45e1-b039-6e30c385867c
+
+Multi-State Information Sharing and Analysis Center. (2019, enero). Remote Desktop Protocol (Security Primer SP2019-0102). Center for Internet Security. https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2019/01/MS-ISAC-Security-Primer-RDP.pdf
+
+Schlosser, D., Binzenhöfer, A., & Staehle, B. (2007). Performance comparison of Windows-based thin-client architectures. En 2007 Australasian Telecommunication Networks and Applications Conference (pp. 197–202). IEEE. https://doi.org/10.1109/ATNAC.2007.4665260
+
+Şeşen, E., & Kara, R. (2018). Masaüstü sanallaştırma teknolojilerindeki bağlantı protokollerinin karşılaştırılması [Comparación de protocolos de conexión en tecnologías de virtualización de escritorios]. Düzce Üniversitesi Bilim ve Teknoloji Dergisi, 6(1), 216–222. https://doi.org/10.29130/dubited.350552
+
+Souppaya, M., & Scarfone, K. (2016). Guide to enterprise telework, remote access, and bring your own device (BYOD) security (NIST Special Publication 800-46, revisión 2). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-46r2
+
+Yang, J., Shen, H., Diao, Z., & He, Y. (2026). Enhancing fine-grained encrypted traffic classification via temporal bi-directional GraphSAGE. Applied Sciences, 16(7), Artículo 3427. https://doi.org/10.3390/app16073427
+
+Yang, S. J., Nieh, J., Selsky, M., & Tiwari, N. (2002). The performance of remote display mechanisms for thin-client computing. En Proceedings of the 2002 USENIX Annual Technical Conference, General Track (pp. 131–146). USENIX Association. https://www.usenix.org/event/usenix02/full_papers/yang/yang.pdf
+
+CITAS PARENTÉTICAS POR ARCHIVO PDF
+
+05_[MS-AUTHSOD]_ Remote Desktop and Web Services _ Microsoft Learn.pdf
+(Microsoft, 2024)
+
+06_[MS-RDPBCGR]_ Remote Desktop Protocol_ Basic Connectivity and Graphics Remoting — Microsoft.pdf
+(Microsoft, 2026)
+
+01_Atanassov et al 2024 - Desktop-as-a-Service.pdf
+(Atanassov et al., 2024)
+
+02_Aung et al 2025 - HoneyWin.pdf
+(Aung et al., 2025)
+
+03_Guide to Enterprise Telework Remote Access and BYOD Security.pdf
+(Souppaya & Scarfone, 2016)
+
+04_Lai y Nieh 2006 - Wide-Area Thin-Client.pdf
+(Lai & Nieh, 2006)
+
+07_Remote Access Protocols for Desktop-as-a-Service Solutions.pdf
+(Magaña et al., 2019)
+
+08_Remote Desktop Protocol - Security Primer.pdf
+(Multi-State Information Sharing and Analysis Center, 2019)
+
+09_Remote Desktop Protocol - Win32 apps _ Microsoft Learn.pdf
+(Microsoft, 2020a)
+
+10_Remote Desktop Sessions - Win32 apps _ Microsoft Learn.pdf
+(Microsoft, 2020b)
+
+11_Schlosser et al 2007 - Windows Thin-Client.pdf
+(Schlosser et al., 2007)
+
+12_Sesen 2018 - Desktop Virtualization Protocols.pdf
+(Şeşen & Kara, 2018)
+
+13_Yang et al 2002 - Remote Display Mechanisms.pdf
+(Yang et al., 2002)
+
+14_Yang et al 2026 - Encrypted Traffic Classification.pdf
+(Yang et al., 2026)
